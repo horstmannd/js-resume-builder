@@ -1,0 +1,63 @@
+/*************************************
+Resume Styles
+*************************************/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+	max-width: 600px;
+}
+
+h1 {
+	text-shadow: 9px 8px 0px pink;
+}
+
+h2 {
+	background-color: darkturquoise;
+	color: white;
+	padding: 4px;
+}
+
+.resume-header {
+	border-bottom: 1px solid darkturquoise;
+	margin-bottom: 1rem;
+}
+
+ul.work-entry,
+ul.education-entry,
+ul.online-learning-entry {
+	font-size: 1rem;
+	font-weight: bold;
+	list-style: none;
+	line-height: 1.7rem;
+	padding-left: 0;
+	padding-right: 1rem;
+}
+
+ul.work-entry ul,
+ul.education-entry ul,
+ul.online-learning-entry ul {
+	font-weight: normal;
+	list-style: none;
+}
+
+a:link {
+	color: darkturquoise;
+	transition-duration: .3s;
+	transition-property: color;
+	text-decoration: none;
+}
+
+a:active {
+	color: darkturquoise;
+}
+
+a:visited {
+	color: darkturquoise;
+}
+
+a:hover {
+	color: pink;
+}
