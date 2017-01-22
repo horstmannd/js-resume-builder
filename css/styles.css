@@ -11,17 +11,17 @@ body {
 }
 
 h1 {
-	text-shadow: 9px 8px 0px pink;
+	/*text-shadow: 9px 8px 0px pink;*/
 }
 
 h2 {
-	background-color: darkturquoise;
+	/*background-color: darkturquoise;
 	color: white;
-	padding: 4px;
+	padding: 4px;*/
 }
 
 .resume-header {
-	border-bottom: 1px solid darkturquoise;
+	border-bottom: 1px solid darkgray;
 	margin-bottom: 1rem;
 }
 
