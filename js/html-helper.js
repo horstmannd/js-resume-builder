@@ -14,7 +14,7 @@ var HTMLschoolDates = '<li class="date-text"><strong>Dates:</strong> %data%</li>
 var HTMLschoolLocation = '<li class="location-text"><strong>Location:</strong> %data%</li>';
 var HTMLschoolMajor = '<li class="major-minor-text"><strong>Major:</strong> %data%</li>';
 var HTMLschoolMinor = '<li class="major-minor-text"><strong>Minor:</strong> %data%</li>';
-var HTMLschoolURL = '<li class="school-site"><a href="%data%">Visit site</a></li>';
+var HTMLschoolURL = '<li class="school-site"><a href="%data%" target="_blank">Visit site</a></li>';
 
 // Declare Online Learning Variables
 var HTMLonlineLearningStart = '<ul class="online-learning-entry"></ul>';
@@ -22,4 +22,4 @@ var HTMLonlineLearningSchool = '<li class="online-learning-school">%data%<ul cla
 var HTMLonlineLearningTitle = '<li class="online-learning-title"><strong>Title:</strong> %data%</li>';
 var HTMLonlineLearningDescription = '<li class="online-learning-description"><strong>Description:</strong> %data%</li>';
 var HTMLonlineLearningDates = '<li class="online-learning-dates"><strong>Dates:</strong> %data%</li>';
-var HTMLonlineLearningURL = '<li class="online-learning-url"><a href="%data%">Visit site</a></li>';
+var HTMLonlineLearningURL = '<li class="online-learning-url"><a href="%data%" target="_blank">Visit site</a></li>';
