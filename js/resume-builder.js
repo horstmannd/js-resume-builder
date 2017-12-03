@@ -2,22 +2,28 @@
 var work = {
     "jobs": [{
         "employer": "Schwan's Shared Services, LLC",
+        "title": "Front End Web Developer",
+        "location": "Marshall, MN USA",
+        "dates": "2/17 - present",
+        "description": "I work in Corporate Marketing and Communications, a department dedicated to corporate messaging through video, print and digital design, writing and web presentation. Furthermore, we support the company’s business units. I work on the corporate site of Schwan’s Company, the brand sites of Freschetta, Red Baron, Edwards, among others and internal sites powered by SharePoint. Responsibilities include front end site maintenance, design implementation, meeting with clients, cross-departmental communication and some design and layout creation. I commonly work in Dreamweaver, Photoshop and Illustrator.  From time to time, I’m tasked with social writing. One of the greatest parts of my job is working with a diverse team that sharpens my skills with their valuable feedback."
+    },{
+        "employer": "Schwan's Shared Services, LLC",
         "title": "Multimedia Producer",
         "location": "Marshall, MN USA",
         "dates": "9/16 - present",
-        "description": "My role is mainly to help internal clients translate their message into video presentation. My responsibilities include writing and reviewing scripts as well as scheduling talent and keeping an eye on all aspects of production to make sure it is completed seamlessly."
+        "description": "My role was mainly to help internal clients translate their message into video presentation. My responsibilities included writing and reviewing scripts as well as scheduling talent and keeping an eye on all aspects of production to make sure it was completed seamlessly."
     }, {
         "employer": "IHOPU Online",
         "title": "Media Coordinator and Producer",
         "location": "Grandview, MO USA",
         "dates": "7/2009 - 5/2013",
-        "description": "IHOPU Online serves distance learners in all English speaking parts of the world by bringing the university classroom to the home through an online school. I managed the audio and video media of that school, making sure the on-site production resulted in an online presentation. This entailed communicating with university instructors, media personnel and my IHOPU Online team. I also became the producer of our on-site filming, which required managing a media crew by making sure they arrived on time and fulfilled their duties in order to make the overall production successful."
+        "description": "IHOPU Online serves distance learners around the world by bringing the university classroom to the home through an online school. I managed audio and video course content. This entailed communicating with university faculty, media personnel and my eSchool team to ensure the content created on production day safely made it to our online platform. I also became the producer of our on-site filming, which required managing a media crew by making sure they arrived on time and fulfilled their duties in order to make the overall production successful."
     }, {
         "employer": "Soho Joe",
         "title": "Web Developer",
         "location": "Minneapolis MN",
         "dates": "2/08 - 4/09",
-        "description": "Soho Joe was a design firm that mainly worked with the health and herbal industries. Soho Joe specialized in print, packaging, and design. I started as a freelance worker from home, then eventually transitioned to in-house staff in May of 2008. This job pushed me to be a faster worker as my boss wanted quick turnover. I needed to be able to work in Adobe Photoshop. Updating content and code on existing sites was my main responsibility."
+        "description": "Soho Joe was a design firm that mainly worked with the health and herbal industries. Soho Joe specialized in print, packaging, and design. I started as a freelance worker from home, then eventually transitioned to in-house staff in May of 2008. This job pushed me to be a faster worker. I mainly updated code and content on existing sites."
     }, {
         "employer": "ITS Video Production Services MSU, Mankato",
         "title": "Student Video Worker",
@@ -29,7 +35,7 @@ var work = {
         "title": "Student Web Worker",
         "location": "Mankato, MN",
         "dates": "2005-2006",
-        "description": "The university switched to a new template. I worked to gut out pages and place them into this template. From time to time, I was given the responsibility to create a logo or minor page design."
+        "description": "The university switched to a new template. I worked to gut out pages and place them into this template. From time to time, I was given the responsibility to create a logo or minor page design. My manager and boss were strict. They taught me about best practices and valid code, which left a deep impression."
     }]
 };
 
@@ -67,7 +73,7 @@ var education = {
     }]
 };
 
-// Encapsulate function in education object that iterates through 
+// Encapsulate function in education object that iterates through
 // education info and displays it on index.html
 education.display = function() {
     for (var school = 0; school < education.schools.length; school++) {
